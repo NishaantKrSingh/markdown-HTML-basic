@@ -6,7 +6,7 @@ const path = require('path');
 converter = new showdown.Converter();
 
 // const content = fs.readSync('/readme.md') 
- fs.readFile(path.join(__dirname, 'readme.md'), 'utf8', (err, data) => {
+ fs.readFile(path.join(__dirname, 'content.md'), 'utf8', (err, data) => {
       const content = data
     //   console.log(content);
       html = converter.makeHtml(content);

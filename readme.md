@@ -1,22 +1,5 @@
-```python
-# Python program to find the factorial of a number provided by the user.
-
-# change the value for a different result
-num = 7
-
-# To take input from the user
-#num = int(input("Enter a number: "))
-
-factorial = 1
-
-# check if the number is negative, positive or zero
-if num < 0:
-   print("Sorry, factorial does not exist for negative numbers")
-elif num == 0:
-   print("The factorial of 0 is 1")
-else:
-   for i in range(1,num + 1):
-       factorial = factorial*i
-   print("The factorial of",num,"is",factorial)
-
-```
+## Simple tool to convert Markup to a webpage
+#### To use
+1) Paste the markup text which you want to convert in content.md
+2) Run ``` npm i``` to install required packages
+3) Finally run ```npm start``` to view the webpage created in local host
